@@ -18,7 +18,7 @@ Additionally, it includes a **separate Logging Middleware backend** implemented 
 
 ## 📂 Project Structure
 
-<Your Roll Number>/
+<Your 22131011357>/
 │
 ├── Logging Middleware/
 │ ├── server.js
@@ -37,11 +37,6 @@ Additionally, it includes a **separate Logging Middleware backend** implemented 
 ├── package.json
 └── README.md
 
-yaml
-Copy code
-
----
-
 ## 🚀 How to Run the Project
 
 ### 🟢 1️⃣ Start the Logging Middleware Server
@@ -53,29 +48,17 @@ This server logs incoming requests to the console.
 
 cd Logging Middleware
 
-markdown
-Copy code
-
 3. Install dependencies:
 
 npm install
-
-markdown
-Copy code
 
 4. Start the server:
 
 node server.js
 
-arduino
-Copy code
-
 5. The server will run at:
 
 http://localhost:5000
-
-markdown
-Copy code
 
 ### 🟢 2️⃣ Start the React Frontend Application
 
@@ -84,31 +67,16 @@ Copy code
 
 cd Frontend Test Submission
 
-markdown
-Copy code
-
 3. Install dependencies:
 
 npm install
 
-markdown
-Copy code
-
 4. Start the React development server:
 
 npm start
-
-arduino
-Copy code
-
 5. The app will run at:
 
 http://localhost:3000
-
-yaml
-Copy code
-
----
 
 ## 🔗 How the Frontend and Middleware are Connected
 
@@ -116,9 +84,6 @@ Whenever a user shortens a URL in the React app, a `POST` request is sent to the
 
 - **Endpoint:**
 POST http://localhost:5000/log
-
-css
-Copy code
 
 - **Request Body Example:**
 ```json
@@ -181,10 +146,8 @@ Logging Middleware is optional and used to show request logging.
 You can extend the backend further to store logs in a database or manage actual redirections.
 
 🙌 Author
-<Your Name>
+<Azmi>
 
-yaml
-Copy code
 
 
 
